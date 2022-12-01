@@ -1,9 +1,9 @@
+#!/bin/bash
+
 # Autor Cheuk Kelly Ng Pante
 # Correo Institucional: alu0101364544@ull.edu.es
-# Version 1.0
+# Version 1.1
 # Descripcion: Script que permite la automatizacion con la conexcion VPN con la Universidad de La Laguna
-
-#!/bin/bash
 
 VPNC="which vpnc"
 option=
@@ -12,7 +12,7 @@ etiqueta=0
 
 $VPNC > /dev/null || etiqueta=1
 
-if [ "$etiqueta" == "0" ]; then
+if [ $etiqueta == "0" ]; then
   echo "Script para entrar a la VPN de la ULL
         0) Para salir
         1) Para conectarse a la VPN
