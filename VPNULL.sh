@@ -24,7 +24,7 @@ if [ $etiqueta == "0" ]; then
   echo "Script para entrar a la VPN de la ULL
         0) Para salir
         1) Para conectarse a la VPN
-        2) Para desconectarse a la VPN
+        2) Para desconectarse de la VPN
   "
   echo -n "Introduzca una opcion: "
   read opcion
