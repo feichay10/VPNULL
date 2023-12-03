@@ -35,7 +35,7 @@ if [ $etiqueta == "0" ]; then
     ;;
     1)
       echo "Conectando con la VPN de la ULL..."
-      sudo vpnc ull.conf
+      sudo vpnc --username "$(cat vpnuser.txt)" --password "$(cat vpnpass.txt)" ull.conf
     ;;
     2)
       echo "Desconectando de la VPN de la ULL..."
