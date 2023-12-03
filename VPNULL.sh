@@ -3,7 +3,7 @@
 # Autor Cheuk Kelly Ng Pante
 # Correo Institucional: alu0101364544@ull.edu.es
 # Version 2.0
-# Descripcion: Script que permite la automatizacion con la conexcion VPN con la Universidad de La Laguna
+# Descripcion: Script que permite la automatizacion con la conexion con VPN a la Universidad de La Laguna
 
 VPNC="which vpnc"
 file="/etc/vpnc/ull.conf"
